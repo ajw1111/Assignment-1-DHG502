@@ -1,8 +1,9 @@
 # Assignment-1-DHG502
 
-WONG Tin Ho 
+Research Question: How does the Mingshi demonstrate the semantic shift of "Folangji" (佛郎機) from a foreign nation/ethnic group into a standardized military artillery system?   
 
-Question: how do the descriptions of Matteo Ricci （利瑪竇） and Western knowledge in the History of Ming (明史) differ significantly between the specialized treatise ("Treatise on Astronomy and the Calendar" / 曆志) and the foreign biographies ("Biography of Italy" / 意大利亞傳)?
+Primary Sources: Chapter 92 (Bing Zhi / Military Records) and Chapter 325 (Lie Zhuan / Foreign Relations - Folangji) from wikisource
 
-Resource(s): Ming Shi volume 31 and 326 from wikipedia
+Text Metadata: Total characters (~X,XXX characters combined) and segmented tokens (~Y,YYY tokens), retrieved from public domain repositories.
+
 
