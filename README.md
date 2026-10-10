@@ -1,9 +1,9 @@
 # Assignment-1-DHG502
 
-Research Question: How does the Mingshi demonstrate the semantic shift of "Folangji" (佛郎機) from a foreign nation/ethnic group into a standardized military artillery system?   
+Research Question: Ming Shi, 3 Core Jesuits Missionaries - Matteo Ricci, Johann Adam Schall von Bell and Diego de Pantoja collocations show what kind of structure and how those 3 missionaries' collocations show both Ming and Qing Government emphasis on science and technology more than the religious belief. 
 
-Primary Sources: Chapter 92 (兵志 / Military Records) and Chapter 325 (外國志 / Foreign Relations - Folangji) from wikisource
 
-Text Metadata: Total characters (~X,XXX characters combined) and segmented tokens (~Y,YYY tokens), retrieved from public domain repositories.
+Primary Sources: Ming Shi （明史） from Prof. Maciej Kyuzynski's provate collection
+
 
 
