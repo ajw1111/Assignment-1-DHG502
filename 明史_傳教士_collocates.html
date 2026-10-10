@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>明史 Collocates — 利瑪竇 / 湯若望 / 龐迪峨 (h10, logDice)</title>
+<style>
+body { font-family: "PingFang TC", "Hiragino Sans", sans-serif; margin: 2rem; color: #222; background: #fafafa; }
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.15rem; margin-top: 2rem; border-left: 4px solid #4a6fa5; padding-left: .5rem; }
+h3 { font-size: 1rem; margin: .2rem 0 .6rem; }
+.meta { color: #666; font-size: .9rem; }
+.freq { color: #888; font-size: .85rem; font-weight: 400; }
+table.main { border-collapse: collapse; background: #fff; font-size: .85rem; margin-top: .8rem; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+table.main th, table.main td { border: 1px solid #ddd; padding: .35rem .55rem; }
+table.main th { background: #4a6fa5; color: #fff; font-weight: 600; }
+table.main tbody tr:nth-child(even) { background: #f4f7fb; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+td.strong { font-weight: 700; color: #1a4d8f; }
+td.coll { font-weight: 600; }
+table.ct { border-collapse: collapse; font-size: .72rem; }
+table.ct td { border: 1px solid #ccc; padding: 1px 6px; text-align: right; font-variant-numeric: tabular-nums; }
+table.ct td.o11 { background: #ffe9a8; font-weight: 700; }
+table.ct td.marg { background: #eef2f7; color: #555; }
+table.ct td.hdr { background: #f7f9fc; color: #4a6fa5; font-weight: 600; font-size: .65rem; text-align: center; }
+.small { font-weight: 400; font-size: .7rem; color: #888; }
+.note { background: #fff8e1; border-left: 4px solid #f0c040; padding: .6rem 1rem; font-size: .85rem; max-width: 60rem; }
+.charts { display: flex; flex-wrap: wrap; gap: 1.2rem; margin-top: 1rem; }
+.chart-card { background: #fff; border: 1px solid #e2e6ee; border-radius: 8px; padding: .9rem 1.1rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); min-width: 300px; flex: 1; }
+.bar-row { display: flex; align-items: center; gap: .5rem; margin: .28rem 0; }
+.bar-label { width: 5.5em; text-align: right; font-size: .82rem; font-weight: 600; flex-shrink: 0; }
+.bar-track { flex: 1; background: #eef2f7; border-radius: 4px; height: 1.05rem; overflow: hidden; }
+.bar-fill { background: linear-gradient(90deg, #4a6fa5, #6d9bd1); height: 100%; border-radius: 4px; }
+.bar-val { width: 3.2em; font-size: .75rem; color: #555; font-variant-numeric: tabular-nums; }
+table.kwic { border-collapse: collapse; background: #fff; font-size: .85rem; margin-top: .6rem; box-shadow: 0 1px 3px rgba(0,0,0,.08); width: 100%; }
+table.kwic th, table.kwic td { border: 1px solid #ddd; padding: .3rem .55rem; }
+table.kwic th { background: #6d9bd1; color: #fff; font-weight: 600; text-align: left; }
+table.kwic tbody tr:nth-child(even) { background: #f4f7fb; }
+td.kw-left { text-align: right; }
+td.kw-node { font-weight: 700; color: #b34700; background: #fff3e6; text-align: center; white-space: nowrap; }
+td.kw-right { text-align: left; }
+th.w-left { width: 36%; } th.w-node { width: 8%; } th.w-right { width: 50%; }
+th.w-juan { width: 6%; }
+td.kw-juan { text-align: center; font-weight: 600; color: #4a6fa5; white-space: nowrap; font-size: .78rem; }
+</style>
+</head>
+<body>
+<h1>《明史》Collocate Analysis — Jesuit Missionaries</h1>
+<p class="meta">
+Targets: 利瑪竇 (Ricci), 湯若望 (Schall), 龐迪峨 (de Pantoja) &nbsp;|&nbsp; Method: <b>window, horizon = 10</b> (±10 words) &nbsp;|&nbsp;
+Tokenization: jieba with custom dictionary &nbsp;|&nbsp; Corpus size N = 1,509,139 tokens &nbsp;|&nbsp;
+Sorted by <b>logDice</b> &nbsp;|&nbsp; Fisher's exact test, alternative = greater
+</p>
+<div class="note">
+<b>Note:</b> Contingency cells follow Evert (2008): O11 = observed co-occurrence,
+R1 = target context size (≈ 2·horizon·f(target)), C1 = collocate corpus frequency,
+N = corpus size. R1 is an approximation of the window-position count.
+龐迪峨 occurs 10 times counting all variants (龐迪峨 ×1, 龐迪我 ×2, and the
+courtesy abbreviations 迪峨 ×4, 迪我 ×3); all were normalized to 龐迪峨
+before analysis.
+</div>
+
+<h2>Top collocates by logDice</h2>
+<div class="charts">
+<div class="chart-card">
+<h3>利瑪竇 <span class="small">(f=12)</span></h3>
+<div class="bar-row">
+<span class="bar-label">西洋人</span>
+<div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+<span class="bar-val">12.30</span>
+</div><div class="bar-row">
+<span class="bar-label">歷算</span>
+<div class="bar-track"><div class="bar-fill" style="width:99.1%"></div></div>
+<span class="bar-val">12.19</span>
+</div><div class="bar-row">
+<span class="bar-label">九萬里</span>
+<div class="bar-track"><div class="bar-fill" style="width:98.3%"></div></div>
+<span class="bar-val">12.09</span>
+</div><div class="bar-row">
+<span class="bar-label">龐迪峨</span>
+<div class="bar-track"><div class="bar-fill" style="width:93.8%"></div></div>
+<span class="bar-val">11.54</span>
+</div><div class="bar-row">
+<span class="bar-label">大西洋</span>
+<div class="bar-track"><div class="bar-fill" style="width:93.3%"></div></div>
+<span class="bar-val">11.48</span>
+</div><div class="bar-row">
+<span class="bar-label">天文</span>
+<div class="bar-track"><div class="bar-fill" style="width:80.6%"></div></div>
+<span class="bar-val">9.91</span>
+</div><div class="bar-row">
+<span class="bar-label">中國</span>
+<div class="bar-track"><div class="bar-fill" style="width:70.7%"></div></div>
+<span class="bar-val">8.70</span>
+</div><div class="bar-row">
+<span class="bar-label">一卷</span>
+<div class="bar-track"><div class="bar-fill" style="width:70.0%"></div></div>
+<span class="bar-val">8.61</span>
+</div>
+</div>
+<div class="chart-card">
+<h3>湯若望 <span class="small">(f=7)</span></h3>
+<div class="bar-row">
+<span class="bar-label">羅雅谷</span>
+<div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+<span class="bar-val">12.54</span>
+</div><div class="bar-row">
+<span class="bar-label">西洋人</span>
+<div class="bar-track"><div class="bar-fill" style="width:97.2%"></div></div>
+<span class="bar-val">12.19</span>
+</div><div class="bar-row">
+<span class="bar-label">曆法</span>
+<div class="bar-track"><div class="bar-fill" style="width:85.1%"></div></div>
+<span class="bar-val">10.68</span>
+</div><div class="bar-row">
+<span class="bar-label">三年</span>
+<div class="bar-track"><div class="bar-fill" style="width:41.6%"></div></div>
+<span class="bar-val">5.22</span>
+</div><div class="bar-row">
+<span class="bar-label">及</span>
+<div class="bar-track"><div class="bar-fill" style="width:34.7%"></div></div>
+<span class="bar-val">4.35</span>
+</div><div class="bar-row">
+<span class="bar-label">等</span>
+<div class="bar-track"><div class="bar-fill" style="width:30.5%"></div></div>
+<span class="bar-val">3.82</span>
+</div>
+</div>
+<div class="chart-card">
+<h3>龐迪峨 <span class="small">(f=10)</span></h3>
+<div class="bar-row">
+<span class="bar-label">三撥</span>
+<div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+<span class="bar-val">12.88</span>
+</div><div class="bar-row">
+<span class="bar-label">周子愚</span>
+<div class="bar-track"><div class="bar-fill" style="width:96.4%"></div></div>
+<span class="bar-val">12.42</span>
+</div><div class="bar-row">
+<span class="bar-label">熊三拔</span>
+<div class="bar-track"><div class="bar-fill" style="width:96.4%"></div></div>
+<span class="bar-val">12.42</span>
+</div><div class="bar-row">
+<span class="bar-label">陽瑪諾</span>
+<div class="bar-track"><div class="bar-fill" style="width:95.5%"></div></div>
+<span class="bar-val">12.30</span>
+</div><div class="bar-row">
+<span class="bar-label">大西洋</span>
+<div class="bar-track"><div class="bar-fill" style="width:94.6%"></div></div>
+<span class="bar-val">12.19</span>
+</div><div class="bar-row">
+<span class="bar-label">利瑪竇</span>
+<div class="bar-track"><div class="bar-fill" style="width:89.6%"></div></div>
+<span class="bar-val">11.54</span>
+</div><div class="bar-row">
+<span class="bar-label">歸化</span>
+<div class="bar-track"><div class="bar-fill" style="width:88.6%"></div></div>
+<span class="bar-val">11.42</span>
+</div><div class="bar-row">
+<span class="bar-label">曆法</span>
+<div class="bar-track"><div class="bar-fill" style="width:86.6%"></div></div>
+<span class="bar-val">11.16</span>
+</div>
+</div></div>
+
+
+<h2>Target: 利瑪竇 <span class="freq">(corpus freq: 12)</span></h2>
+<table class="main">
+<thead><tr>
+<th>Collocate</th><th>obs<br>local</th><th>exp<br>local</th><th>ratio<br>local</th>
+<th>obs<br>global</th><th>Contingency table<br><span class="small">rows: target / other; cols: collocate / other</span></th>
+<th>p-value<br>(Fisher, &gt;)</th><th>logDice</th><th>t-score</th><th>MI</th><th>log-lik</th>
+</tr></thead>
+<tbody><tr>
+<td class="coll">西洋人</td>
+<td class="num">4</td>
+<td class="num">0.0014</td>
+<td class="num">2,869.9</td>
+<td class="num">14</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">4.0</td><td>236.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>10.0</td><td>1,508,889.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">14.0</td><td class="marg">1,509,125.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.00e+00</td>
+<td class="num strong">12.30</td>
+<td class="num">2.00</td>
+<td class="num">11.49</td>
+<td class="num">57.08</td>
+</tr><tr>
+<td class="coll">歷算</td>
+<td class="num">2</td>
+<td class="num">0.0002</td>
+<td class="num">10,044.8</td>
+<td class="num">2</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>0.0</td><td>1,508,899.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">2.0</td><td class="marg">1,509,137.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">9.84e-09</td>
+<td class="num strong">12.19</td>
+<td class="num">1.41</td>
+<td class="num">13.29</td>
+<td class="num">36.89</td>
+</tr><tr>
+<td class="coll">九萬里</td>
+<td class="num">2</td>
+<td class="num">0.0003</td>
+<td class="num">6,696.5</td>
+<td class="num">3</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>1.0</td><td>1,508,898.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">3.0</td><td class="marg">1,509,136.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">2.95e-08</td>
+<td class="num strong">12.09</td>
+<td class="num">1.41</td>
+<td class="num">12.71</td>
+<td class="num">33.07</td>
+</tr><tr>
+<td class="coll">龐迪峨</td>
+<td class="num">2</td>
+<td class="num">0.0010</td>
+<td class="num">2,009.0</td>
+<td class="num">10</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>8.0</td><td>1,508,891.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">10.0</td><td class="marg">1,509,129.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">4.41e-07</td>
+<td class="num strong">11.54</td>
+<td class="num">1.41</td>
+<td class="num">10.97</td>
+<td class="num">26.88</td>
+</tr><tr>
+<td class="coll">大西洋</td>
+<td class="num">2</td>
+<td class="num">0.0011</td>
+<td class="num">1,826.3</td>
+<td class="num">11</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>9.0</td><td>1,508,890.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">11.0</td><td class="marg">1,509,128.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">5.42e-07</td>
+<td class="num strong">11.48</td>
+<td class="num">1.41</td>
+<td class="num">10.83</td>
+<td class="num">26.46</td>
+</tr><tr>
+<td class="coll">天文</td>
+<td class="num">2</td>
+<td class="num">0.0056</td>
+<td class="num">358.7</td>
+<td class="num">56</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>54.0</td><td>1,508,845.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">56.0</td><td class="marg">1,509,083.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">1.51e-05</td>
+<td class="num strong">9.91</td>
+<td class="num">1.41</td>
+<td class="num">8.49</td>
+<td class="num">19.64</td>
+</tr><tr>
+<td class="coll">中國</td>
+<td class="num">2</td>
+<td class="num">0.0145</td>
+<td class="num">137.6</td>
+<td class="num">146</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>144.0</td><td>1,508,755.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">146.0</td><td class="marg">1,508,993.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0001</td>
+<td class="num strong">8.70</td>
+<td class="num">1.40</td>
+<td class="num">7.10</td>
+<td class="num">15.78</td>
+</tr><tr>
+<td class="coll">一卷</td>
+<td class="num">3</td>
+<td class="num">0.0239</td>
+<td class="num">125.6</td>
+<td class="num">240</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>237.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>237.0</td><td>1,508,662.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">240.0</td><td class="marg">1,508,899.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">2.16e-06</td>
+<td class="num strong">8.61</td>
+<td class="num">1.72</td>
+<td class="num">6.97</td>
+<td class="num">23.14</td>
+</tr><tr>
+<td class="coll">曆</td>
+<td class="num">2</td>
+<td class="num">0.1172</td>
+<td class="num">17.1</td>
+<td class="num">1,177</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>1175.0</td><td>1,507,724.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">1177.0</td><td class="marg">1,507,962.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0063</td>
+<td class="num strong">5.78</td>
+<td class="num">1.33</td>
+<td class="num">4.09</td>
+<td class="num">7.61</td>
+</tr><tr>
+<td class="coll">臣</td>
+<td class="num">2</td>
+<td class="num">0.1717</td>
+<td class="num">11.6</td>
+<td class="num">1,725</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>1723.0</td><td>1,507,176.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">1725.0</td><td class="marg">1,507,414.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0131</td>
+<td class="num strong">5.24</td>
+<td class="num">1.29</td>
+<td class="num">3.54</td>
+<td class="num">6.19</td>
+</tr><tr>
+<td class="coll">萬</td>
+<td class="num">2</td>
+<td class="num">0.1764</td>
+<td class="num">11.3</td>
+<td class="num">1,772</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>1770.0</td><td>1,507,129.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">1772.0</td><td class="marg">1,507,367.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0138</td>
+<td class="num strong">5.20</td>
+<td class="num">1.29</td>
+<td class="num">3.50</td>
+<td class="num">6.09</td>
+</tr><tr>
+<td class="coll">言</td>
+<td class="num">3</td>
+<td class="num">0.2719</td>
+<td class="num">11.0</td>
+<td class="num">2,731</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>237.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>2728.0</td><td>1,506,171.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">2731.0</td><td class="marg">1,506,408.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0027</td>
+<td class="num strong">5.16</td>
+<td class="num">1.58</td>
+<td class="num">3.46</td>
+<td class="num">9.00</td>
+</tr><tr>
+<td class="coll">時</td>
+<td class="num">2</td>
+<td class="num">0.2567</td>
+<td class="num">7.8</td>
+<td class="num">2,578</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>2576.0</td><td>1,506,323.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">2578.0</td><td class="marg">1,506,561.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0277</td>
+<td class="num strong">4.66</td>
+<td class="num">1.23</td>
+<td class="num">2.96</td>
+<td class="num">4.75</td>
+</tr><tr>
+<td class="coll">等</td>
+<td class="num">4</td>
+<td class="num">0.6913</td>
+<td class="num">5.8</td>
+<td class="num">6,944</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">4.0</td><td>236.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>6940.0</td><td>1,501,959.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">6944.0</td><td class="marg">1,502,195.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0054</td>
+<td class="num strong">4.24</td>
+<td class="num">1.65</td>
+<td class="num">2.53</td>
+<td class="num">7.50</td>
+</tr><tr>
+<td class="coll">中</td>
+<td class="num">2</td>
+<td class="num">0.4462</td>
+<td class="num">4.5</td>
+<td class="num">4,482</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>4480.0</td><td>1,504,419.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">4482.0</td><td class="marg">1,504,657.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0741</td>
+<td class="num strong">3.87</td>
+<td class="num">1.10</td>
+<td class="num">2.16</td>
+<td class="num">2.91</td>
+</tr><tr>
+<td class="coll">至</td>
+<td class="num">2</td>
+<td class="num">0.4731</td>
+<td class="num">4.2</td>
+<td class="num">4,752</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>4750.0</td><td>1,504,149.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">4752.0</td><td class="marg">1,504,387.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0819</td>
+<td class="num strong">3.78</td>
+<td class="num">1.08</td>
+<td class="num">2.08</td>
+<td class="num">2.73</td>
+</tr><tr>
+<td class="coll">而</td>
+<td class="num">3</td>
+<td class="num">0.8007</td>
+<td class="num">3.7</td>
+<td class="num">8,043</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>237.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>8040.0</td><td>1,500,859.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">8043.0</td><td class="marg">1,501,096.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0471</td>
+<td class="num strong">3.61</td>
+<td class="num">1.27</td>
+<td class="num">1.91</td>
+<td class="num">3.56</td>
+</tr><tr>
+<td class="coll">有</td>
+<td class="num">2</td>
+<td class="num">0.6281</td>
+<td class="num">3.2</td>
+<td class="num">6,309</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>6307.0</td><td>1,502,592.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">6309.0</td><td class="marg">1,502,830.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.1310</td>
+<td class="num strong">3.37</td>
+<td class="num">0.97</td>
+<td class="num">1.67</td>
+<td class="num">1.90</td>
+</tr><tr>
+<td class="coll">與</td>
+<td class="num">2</td>
+<td class="num">0.6748</td>
+<td class="num">3.0</td>
+<td class="num">6,778</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>238.0</td><td class="marg">240.0</td></tr>
+<tr><td class="hdr">other</td><td>6776.0</td><td>1,502,123.0</td><td class="marg">1,508,899.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">6778.0</td><td class="marg">1,502,361.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.1468</td>
+<td class="num strong">3.27</td>
+<td class="num">0.94</td>
+<td class="num">1.57</td>
+<td class="num">1.71</td>
+</tr></tbody>
+</table>
+<h2>Target: 湯若望 <span class="freq">(corpus freq: 7)</span></h2>
+<table class="main">
+<thead><tr>
+<th>Collocate</th><th>obs<br>local</th><th>exp<br>local</th><th>ratio<br>local</th>
+<th>obs<br>global</th><th>Contingency table<br><span class="small">rows: target / other; cols: collocate / other</span></th>
+<th>p-value<br>(Fisher, &gt;)</th><th>logDice</th><th>t-score</th><th>MI</th><th>log-lik</th>
+</tr></thead>
+<tbody><tr>
+<td class="coll">羅雅谷</td>
+<td class="num">2</td>
+<td class="num">0.0002</td>
+<td class="num">8,659.3</td>
+<td class="num">4</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>138.0</td><td class="marg">140.0</td></tr>
+<tr><td class="hdr">other</td><td>2.0</td><td>1,508,997.0</td><td class="marg">1,508,999.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">4.0</td><td class="marg">1,509,135.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">1.98e-08</td>
+<td class="num strong">12.54</td>
+<td class="num">1.41</td>
+<td class="num">13.08</td>
+<td class="num">33.54</td>
+</tr><tr>
+<td class="coll">西洋人</td>
+<td class="num">3</td>
+<td class="num">0.0008</td>
+<td class="num">3,711.1</td>
+<td class="num">14</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>137.0</td><td class="marg">140.0</td></tr>
+<tr><td class="hdr">other</td><td>11.0</td><td>1,508,988.0</td><td class="marg">1,508,999.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">14.0</td><td class="marg">1,509,125.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.00e+00</td>
+<td class="num strong">12.19</td>
+<td class="num">1.73</td>
+<td class="num">11.86</td>
+<td class="num">44.11</td>
+</tr><tr>
+<td class="coll">曆法</td>
+<td class="num">2</td>
+<td class="num">0.0019</td>
+<td class="num">1,049.6</td>
+<td class="num">33</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>138.0</td><td class="marg">140.0</td></tr>
+<tr><td class="hdr">other</td><td>31.0</td><td>1,508,968.0</td><td class="marg">1,508,999.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">33.0</td><td class="marg">1,509,106.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">1.74e-06</td>
+<td class="num strong">10.68</td>
+<td class="num">1.41</td>
+<td class="num">10.04</td>
+<td class="num">24.00</td>
+</tr><tr>
+<td class="coll">三年</td>
+<td class="num">2</td>
+<td class="num">0.1013</td>
+<td class="num">19.7</td>
+<td class="num">1,755</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>138.0</td><td class="marg">140.0</td></tr>
+<tr><td class="hdr">other</td><td>1753.0</td><td>1,507,246.0</td><td class="marg">1,508,999.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">1755.0</td><td class="marg">1,507,384.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0048</td>
+<td class="num strong">5.22</td>
+<td class="num">1.34</td>
+<td class="num">4.30</td>
+<td class="num">8.18</td>
+</tr><tr>
+<td class="coll">及</td>
+<td class="num">2</td>
+<td class="num">0.1846</td>
+<td class="num">10.8</td>
+<td class="num">3,197</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>138.0</td><td class="marg">140.0</td></tr>
+<tr><td class="hdr">other</td><td>3195.0</td><td>1,505,804.0</td><td class="marg">1,508,999.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">3197.0</td><td class="marg">1,505,942.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0149</td>
+<td class="num strong">4.35</td>
+<td class="num">1.28</td>
+<td class="num">3.44</td>
+<td class="num">5.94</td>
+</tr><tr>
+<td class="coll">等</td>
+<td class="num">3</td>
+<td class="num">0.4010</td>
+<td class="num">7.5</td>
+<td class="num">6,944</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>137.0</td><td class="marg">140.0</td></tr>
+<tr><td class="hdr">other</td><td>6941.0</td><td>1,502,058.0</td><td class="marg">1,508,999.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">6944.0</td><td class="marg">1,502,195.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0078</td>
+<td class="num strong">3.82</td>
+<td class="num">1.50</td>
+<td class="num">2.90</td>
+<td class="num">6.96</td>
+</tr></tbody>
+</table>
+<h2>Target: 龐迪峨 <span class="freq">(corpus freq: 10)</span></h2>
+<table class="main">
+<thead><tr>
+<th>Collocate</th><th>obs<br>local</th><th>exp<br>local</th><th>ratio<br>local</th>
+<th>obs<br>global</th><th>Contingency table<br><span class="small">rows: target / other; cols: collocate / other</span></th>
+<th>p-value<br>(Fisher, &gt;)</th><th>logDice</th><th>t-score</th><th>MI</th><th>log-lik</th>
+</tr></thead>
+<tbody><tr>
+<td class="coll">三撥</td>
+<td class="num">3</td>
+<td class="num">0.0003</td>
+<td class="num">10,180.5</td>
+<td class="num">3</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>197.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>0.0</td><td>1,508,939.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">3.0</td><td class="marg">1,509,136.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">9.29e-13</td>
+<td class="num strong">12.88</td>
+<td class="num">1.73</td>
+<td class="num">13.31</td>
+<td class="num">55.43</td>
+</tr><tr>
+<td class="coll">周子愚</td>
+<td class="num">2</td>
+<td class="num">0.0002</td>
+<td class="num">10,180.5</td>
+<td class="num">2</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>0.0</td><td>1,508,939.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">2.0</td><td class="marg">1,509,137.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">9.58e-09</td>
+<td class="num strong">12.42</td>
+<td class="num">1.41</td>
+<td class="num">13.31</td>
+<td class="num">36.94</td>
+</tr><tr>
+<td class="coll">熊三拔</td>
+<td class="num">2</td>
+<td class="num">0.0002</td>
+<td class="num">10,180.5</td>
+<td class="num">2</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>0.0</td><td>1,508,939.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">2.0</td><td class="marg">1,509,137.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">9.58e-09</td>
+<td class="num strong">12.42</td>
+<td class="num">1.41</td>
+<td class="num">13.31</td>
+<td class="num">36.94</td>
+</tr><tr>
+<td class="coll">陽瑪諾</td>
+<td class="num">2</td>
+<td class="num">0.0003</td>
+<td class="num">6,787.0</td>
+<td class="num">3</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>1.0</td><td>1,508,938.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">3.0</td><td class="marg">1,509,136.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">2.87e-08</td>
+<td class="num strong">12.30</td>
+<td class="num">1.41</td>
+<td class="num">12.73</td>
+<td class="num">33.12</td>
+</tr><tr>
+<td class="coll">大西洋</td>
+<td class="num">3</td>
+<td class="num">0.0011</td>
+<td class="num">2,776.5</td>
+<td class="num">11</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>197.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>8.0</td><td>1,508,931.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">11.0</td><td class="marg">1,509,128.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.00e+00</td>
+<td class="num strong">12.19</td>
+<td class="num">1.73</td>
+<td class="num">11.44</td>
+<td class="num">42.54</td>
+</tr><tr>
+<td class="coll">利瑪竇</td>
+<td class="num">2</td>
+<td class="num">0.0012</td>
+<td class="num">1,696.8</td>
+<td class="num">12</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>10.0</td><td>1,508,929.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">12.0</td><td class="marg">1,509,127.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">6.37e-07</td>
+<td class="num strong">11.54</td>
+<td class="num">1.41</td>
+<td class="num">10.73</td>
+<td class="num">26.13</td>
+</tr><tr>
+<td class="coll">歸化</td>
+<td class="num">2</td>
+<td class="num">0.0014</td>
+<td class="num">1,454.4</td>
+<td class="num">14</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>12.0</td><td>1,508,927.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">14.0</td><td class="marg">1,509,125.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">8.77e-07</td>
+<td class="num strong">11.42</td>
+<td class="num">1.41</td>
+<td class="num">10.51</td>
+<td class="num">25.46</td>
+</tr><tr>
+<td class="coll">曆法</td>
+<td class="num">3</td>
+<td class="num">0.0032</td>
+<td class="num">925.5</td>
+<td class="num">33</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>197.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>30.0</td><td>1,508,909.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">33.0</td><td class="marg">1,509,106.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">4.78e-09</td>
+<td class="num strong">11.16</td>
+<td class="num">1.73</td>
+<td class="num">9.85</td>
+<td class="num">35.33</td>
+</tr><tr>
+<td class="coll">等同</td>
+<td class="num">2</td>
+<td class="num">0.0020</td>
+<td class="num">1,018.1</td>
+<td class="num">20</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>18.0</td><td>1,508,921.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">20.0</td><td class="marg">1,509,119.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">1.82e-06</td>
+<td class="num strong">11.09</td>
+<td class="num">1.41</td>
+<td class="num">9.99</td>
+<td class="num">23.94</td>
+</tr><tr>
+<td class="coll">五官</td>
+<td class="num">2</td>
+<td class="num">0.0028</td>
+<td class="num">727.2</td>
+<td class="num">28</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>26.0</td><td>1,508,913.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">28.0</td><td class="marg">1,509,111.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">3.61e-06</td>
+<td class="num strong">10.75</td>
+<td class="num">1.41</td>
+<td class="num">9.51</td>
+<td class="num">22.54</td>
+</tr><tr>
+<td class="coll">天文</td>
+<td class="num">2</td>
+<td class="num">0.0055</td>
+<td class="num">363.6</td>
+<td class="num">56</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>54.0</td><td>1,508,885.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">56.0</td><td class="marg">1,509,083.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">1.47e-05</td>
+<td class="num strong">9.96</td>
+<td class="num">1.41</td>
+<td class="num">8.51</td>
+<td class="num">19.69</td>
+</tr><tr>
+<td class="coll">曆</td>
+<td class="num">3</td>
+<td class="num">0.1156</td>
+<td class="num">25.9</td>
+<td class="num">1,177</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>197.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>1174.0</td><td>1,507,765.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">1177.0</td><td class="marg">1,507,962.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0002</td>
+<td class="num strong">6.37</td>
+<td class="num">1.67</td>
+<td class="num">4.70</td>
+<td class="num">13.83</td>
+</tr><tr>
+<td class="coll">正</td>
+<td class="num">2</td>
+<td class="num">0.1034</td>
+<td class="num">19.3</td>
+<td class="num">1,053</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>1051.0</td><td>1,507,888.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">1053.0</td><td class="marg">1,508,086.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0050</td>
+<td class="num strong">5.95</td>
+<td class="num">1.34</td>
+<td class="num">4.27</td>
+<td class="num">8.08</td>
+</tr><tr>
+<td class="coll">等</td>
+<td class="num">10</td>
+<td class="num">0.6821</td>
+<td class="num">14.7</td>
+<td class="num">6,944</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">10.0</td><td>190.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>6934.0</td><td>1,502,005.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">6944.0</td><td class="marg">1,502,195.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">3.40e-09</td>
+<td class="num strong">5.56</td>
+<td class="num">2.95</td>
+<td class="num">3.87</td>
+<td class="num">35.68</td>
+</tr><tr>
+<td class="coll">人</td>
+<td class="num">5</td>
+<td class="num">0.4370</td>
+<td class="num">11.4</td>
+<td class="num">4,449</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">5.0</td><td>195.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>4444.0</td><td>1,504,495.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">4449.0</td><td class="marg">1,504,690.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">8.72e-05</td>
+<td class="num strong">5.20</td>
+<td class="num">2.04</td>
+<td class="num">3.52</td>
+<td class="num">15.39</td>
+</tr><tr>
+<td class="coll">言</td>
+<td class="num">3</td>
+<td class="num">0.2683</td>
+<td class="num">11.2</td>
+<td class="num">2,731</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>197.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>2728.0</td><td>1,506,211.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">2731.0</td><td class="marg">1,506,408.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0026</td>
+<td class="num strong">5.16</td>
+<td class="num">1.58</td>
+<td class="num">3.48</td>
+<td class="num">9.08</td>
+</tr><tr>
+<td class="coll">及</td>
+<td class="num">3</td>
+<td class="num">0.3140</td>
+<td class="num">9.6</td>
+<td class="num">3,197</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>197.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>3194.0</td><td>1,505,745.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">3197.0</td><td class="marg">1,505,942.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0040</td>
+<td class="num strong">4.94</td>
+<td class="num">1.55</td>
+<td class="num">3.26</td>
+<td class="num">8.22</td>
+</tr><tr>
+<td class="coll">皆</td>
+<td class="num">3</td>
+<td class="num">0.4882</td>
+<td class="num">6.1</td>
+<td class="num">4,970</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">3.0</td><td>197.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>4967.0</td><td>1,503,972.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">4970.0</td><td class="marg">1,504,169.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.0133</td>
+<td class="num strong">4.30</td>
+<td class="num">1.45</td>
+<td class="num">2.62</td>
+<td class="num">5.91</td>
+</tr><tr>
+<td class="coll">與</td>
+<td class="num">2</td>
+<td class="num">0.6658</td>
+<td class="num">3.0</td>
+<td class="num">6,778</td>
+<td><table class="ct">
+<tr><td class="hdr"></td><td class="hdr">collocate</td><td class="hdr">other</td><td class="hdr">Σ</td></tr>
+<tr><td class="hdr">target</td><td class="o11">2.0</td><td>198.0</td><td class="marg">200.0</td></tr>
+<tr><td class="hdr">other</td><td>6776.0</td><td>1,502,163.0</td><td class="marg">1,508,939.0</td></tr>
+<tr><td class="hdr">Σ</td><td class="marg">6778.0</td><td class="marg">1,502,361.0</td><td class="marg">1,509,139.0</td></tr>
+</table></td>
+<td class="num">0.1437</td>
+<td class="num strong">3.27</td>
+<td class="num">0.94</td>
+<td class="num">1.59</td>
+<td class="num">1.74</td>
+</tr></tbody>
+</table>
+
+
+<h2>KWIC Concordance <span class="freq">(window ±10 tokens, corpus order)</span></h2>
+
+<h3>利瑪竇 <span class="small">(12 lines — appears in 本紀·卷21, 志·卷25, 志·卷31, 志·卷98, 列傳·卷218, 列傳·卷251, 列傳·卷326)</span></h3>
+<table class="kwic">
+<thead><tr><th class="w-juan">Section</th><th class="w-left">Left context</th><th class="w-node">Node</th><th class="w-right">Right context</th></tr></thead>
+<tbody><tr>
+<td class="kw-juan">本紀·卷21</td>
+<td class="kw-left">大西洋</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">進方物</td>
+</tr><tr>
+<td class="kw-juan">志·卷25</td>
+<td class="kw-left">明神宗時西洋人</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">等入中國精於天文歷算之學發微闡奧運算</td>
+</tr><tr>
+<td class="kw-juan">志·卷25</td>
+<td class="kw-left">萬歷中西洋人</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">制渾儀天球地球等器</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">先是大西洋人</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">進貢土物而龐迪峨三撥及能華同鄧玉函湯若望等</td>
+</tr><tr>
+<td class="kw-juan">志·卷98</td>
+<td class="kw-left">楊廉星略一卷</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">幾何原本六卷勾股義一卷表度說一卷圜容較義</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷218</td>
+<td class="kw-left">西洋人</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">入貢因居南京與其徒王豐肅等倡天主教士大夫多宗</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷251</td>
+<td class="kw-left">從西洋人</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">學天文歷算火器盡其術</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">萬曆時其國人</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">至京師為萬國全圖言天下有五大洲</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">二年庚申閱一千五百八十一年至萬曆九年</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">始泛海九萬里抵廣州之香山澳其教遂沾染中土</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">八月又言臣等議令</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">還國候命五月未賜綸音毋怪乎遠人之鬱病而思歸也</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">禮科給事中余懋孳亦言自</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">東來而中國復有天主之教</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">四十六年四月龐迪峨等奏臣與先臣</td>
+<td class="kw-node">利瑪竇</td>
+<td class="kw-right">等十餘人涉海九萬里觀光上國叨食大官十有七年</td>
+</tr></tbody>
+</table>
+<h3>湯若望 <span class="small">(7 lines — appears in 志·卷25, 志·卷31, 列傳·卷255, 列傳·卷326)</span></h3>
+<table class="kwic">
+<thead><tr><th class="w-juan">Section</th><th class="w-left">Left context</th><th class="w-node">Node</th><th class="w-right">Right context</th></tr></thead>
+<tbody><tr>
+<td class="kw-juan">志·卷25</td>
+<td class="kw-left">西洋人</td>
+<td class="kw-node">湯若望</td>
+<td class="kw-right">曰天啟三年九月十五夜戌初初刻望月食</td>
+</tr><tr>
+<td class="kw-juan">志·卷25</td>
+<td class="kw-left">今將李天經</td>
+<td class="kw-node">湯若望</td>
+<td class="kw-right">等所推崇禎元年京師昏旦時刻中星列</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">人利瑪竇進貢土物而龐迪峨三撥及能華同鄧玉函</td>
+<td class="kw-node">湯若望</td>
+<td class="kw-right">等先後至俱精究天文曆法</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">三年玉函卒又徵西洋人</td>
+<td class="kw-node">湯若望</td>
+<td class="kw-right">羅雅穀譯書演算</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">其日天經與羅雅谷</td>
+<td class="kw-node">湯若望</td>
+<td class="kw-right">大理評事王應遴禮臣李焻及監局守登</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷255</td>
+<td class="kw-left">及入對御史楊若橋薦西洋人</td>
+<td class="kw-node">湯若望</td>
+<td class="kw-right">善火器請召試</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">時曆法益疏舛禮部尚書徐光啟請令其徒羅雅谷</td>
+<td class="kw-node">湯若望</td>
+<td class="kw-right">等以其國新法相參較開局纂修</td>
+</tr></tbody>
+</table>
+<h3>龐迪峨 <span class="small">(10 lines — appears in 志·卷31, 列傳·卷326)</span></h3>
+<table class="kwic">
+<thead><tr><th class="w-juan">Section</th><th class="w-left">Left context</th><th class="w-node">Node</th><th class="w-right">Right context</th></tr></thead>
+<tbody><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">於是五官正周子愚言大西洋歸化遠臣</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">熊三撥等攜有彼國曆法多中國典籍所未備者</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">先是大西洋人利瑪竇進貢土物而</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">三撥及能華同鄧玉函湯若望等先後至俱精究天文</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">員外郎李之藻亦皆精心曆理可與</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">三撥等同譯西洋法俾雲路等參訂修改</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">而力薦</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">三撥及華民陽瑪諾等言其所論天文曆數有</td>
+</tr><tr>
+<td class="kw-juan">志·卷31</td>
+<td class="kw-left">今</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">等年齡向衰乞敕禮部開局取其曆法</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">明年五官正周子愚言大西洋歸化人</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">熊三拔等深明曆法</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">等因請仿洪武初設回回曆科之例令</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">等同測驗</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">遣斥國家禁令安在帝納其言至十二月令豐肅及</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">等俱遣赴廣東聽還本國</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">四十六年四月</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">等奏臣與先臣利瑪竇等十餘人涉海九萬里</td>
+</tr><tr>
+<td class="kw-juan">列傳·卷326</td>
+<td class="kw-left">方濟如略及熊三拔皆意大里亞國人玉函熱而瑪尼國人</td>
+<td class="kw-node">龐迪峨</td>
+<td class="kw-right">依西把尼亞國人陽瑪諾波而都瓦爾國人皆</td>
+</tr></tbody>
+</table>
+</body>
+</html>
