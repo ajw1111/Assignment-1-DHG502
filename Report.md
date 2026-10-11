@@ -76,6 +76,7 @@ Limitations
 
 Despite the strengths of using Log-Dice, several methodological and textual limitations should
 be noted:
+
 ● Small Corpus Frequency: All three missionaries have very low frequencies within the
 overall Ming Shi (Ricci: 12, Schall: 7, Pantoja: 10). When working with such small
 sample sizes, statistical tests like Fisher's exact test or Log-Dice become extremely
