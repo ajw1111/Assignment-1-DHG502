@@ -6,9 +6,8 @@ figures—Matteo Ricci (利瑪竇), Johann Adam Schall von Bell (湯若望), and
 contributions while systematically erasing their religious identity?
 
 
-Primary Sources: Ming Shi （明史） from Prof. Maciej Kyuzynski's private collection.
-
-Secondary source: 
+Sources: 1. Ming Shi （明史） from Prof. Maciej Kyuzynski's private collection
+         2. Chen Shouyi 陳受頤, "Ming mo Qing chu Yesu huishi de Rujiao guan ji qi fanying" 明末清初耶穌會士的儒教觀及其反應 [The Jesuit View of Confucianism and Its Reactions in the Late Ming and Early Qing Dynasties], Guoxue jikan 國學季刊 5, no. 2 (1935)
 
 
 
