@@ -15,3 +15,9 @@ The text is on this repository.
 URL: https://upload.wikimedia.org/wikipedia/commons/6/62/NLC416-13jh001204-42956_%E6%98%8E%E6%9C%AB%E6%B8%85%E5%88%9D%E8%80%B6%E7%A9%8C%E6%9C%83%E5%A3%AB%E7%9A%84%E5%84%92%E6%95%99%E8%A7%80%E5%8F%8A%E5%85%B6%E5%8F%8D%E6%87%89.pdf
 
 
+I used the complete text of the Ming Shi from Prof. Maciej Kurzynski’s private collection, yielding a corpus of 1,509,139 tokens. Text preprocessing and tokenization were handled using GLM 5.3 Flash and Jieba. 
+
+For windows I tried both h5 and h10, but noticed the results for all the missionaries ended up looking pretty much identical. So, I switched to an H10 window (ten words to the left and right) and used Log-Dice as the association measure.
+
+For the contingency table layout, I set up standard a/b/c/d contingency grids at an h10 window. 
+
